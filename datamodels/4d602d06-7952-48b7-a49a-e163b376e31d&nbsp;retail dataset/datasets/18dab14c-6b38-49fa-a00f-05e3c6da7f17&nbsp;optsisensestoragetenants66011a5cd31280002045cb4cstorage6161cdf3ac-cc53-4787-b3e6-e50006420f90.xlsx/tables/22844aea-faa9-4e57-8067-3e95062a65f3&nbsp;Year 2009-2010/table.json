@@ -1,0 +1,119 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "hidden": false,
+            "id": "Invoice",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Invoice",
+            "oid": "16cf44ba-4c98-4ef4-9791-e10e377e41cd",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "StockCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "StockCode",
+            "oid": "028fcf2b-f71c-4645-8b76-fd9e36bdf5fc",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Description",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Description",
+            "oid": "b5a51081-d866-40df-ad44-0edd47a5be35",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "hidden": false,
+            "id": "Quantity",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Quantity",
+            "oid": "adca9345-571a-4e8c-a61e-e6bdf74c418c",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "InvoiceDate",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "InvoiceDate",
+            "oid": "28f885c0-b85a-4bf2-94a1-d75769be2c7f",
+            "precision": 0,
+            "scale": 0,
+            "size": 50,
+            "type": 4
+        },
+        {
+            "hidden": false,
+            "id": "Price",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Price",
+            "oid": "01680c39-57aa-45ca-9c76-299c288187f7",
+            "precision": 0,
+            "scale": 0,
+            "size": 1,
+            "type": 5
+        },
+        {
+            "hidden": false,
+            "id": "Customer ID",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Customer ID",
+            "oid": "e5d2c33a-0686-4325-b662-1dc2ff8c6fa0",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "hidden": false,
+            "id": "Country",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Country",
+            "oid": "bb595203-d5ab-4458-b5a7-65e95284ebaa",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "fieldsInFirstRow": true,
+        "staticRange": ""
+    },
+    "dataset": "18dab14c-6b38-49fa-a00f-05e3c6da7f17",
+    "hidden": false,
+    "id": "Year 2009-2010",
+    "isMaterialized": false,
+    "name": "Year 2009-2010",
+    "oid": "22844aea-faa9-4e57-8067-3e95062a65f3",
+    "schemaName": "/opt/sisense/storage/tenants/66011a5cd31280002045cb4c/storage/61/61cdf3ac-cc53-4787-b3e6-e50006420f90.xlsx",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,59 @@
+{
+    "allowChangeSubscription": false,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aretailIAAadataset",
+        "fullname": "localhost/retail dataset",
+        "id": "localhost_aretailIAAadataset",
+        "live": false,
+        "title": "retail dataset"
+    },
+    "desc": "",
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "666984cdc4fdae003f73f78c",
+    "settings": {
+        "autoUpdateOnFiltersChange": true
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "666984cdc4fdae003f73f78c"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "startAt": "2024-06-12",
+        "subscribe": false,
+        "timezone": -330,
+        "type": "onUpdate",
+        "tzName": "Asia/Calcutta"
+    },
+    "title": "Fuji_Issues testing",
+    "widgets": [
+        "./widgets/6669916fc4fdae003f73f78e/widget.json"
+    ]
+}

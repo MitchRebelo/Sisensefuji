@@ -1,0 +1,169 @@
+{
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "666984cdc4fdae003f73f78c",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aretailIAAadataset",
+        "fullname": "localhost/retail dataset",
+        "id": "localhost_aretailIAAadataset",
+        "live": false,
+        "title": "retail dataset"
+    },
+    "desc": null,
+    "drillToDashboardConfig": {
+        "dashboardIds": [
+        ],
+        "displayDashboardsPane": true,
+        "displayFilterPane": true,
+        "displayHeaderRow": true,
+        "displayToolbarRow": true,
+        "drillToDashboardByName": false,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drilledDashboardDisplayType": 2,
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "excludeFilterDims": [
+        ],
+        "forceZeroInsteadNull": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "ignoreFiltersSource": false,
+        "includeFilterDims": [
+        ],
+        "mergeTargetDashboardFilters": false,
+        "modalWindowResize": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "sendBreakByValueFilter": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "showFolderNameOnMenuSelection": false,
+        "showJTDIcon": true,
+        "volatile": false
+    },
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Year 2009-2010.Country]",
+                            "index": 0
+                        },
+                        "instanceid": "F6EEA-8493-87",
+                        "jaql": {
+                            "column": "Country",
+                            "datatype": "text",
+                            "dim": "[Year 2009-2010.Country]",
+                            "merged": true,
+                            "table": "Year 2009-2010",
+                            "title": "Country"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Year 2009-2010.Quantity]_sum",
+                            "index": 1
+                        },
+                        "format": {
+                            "color": {
+                                "type": "color"
+                            },
+                            "mask": {
+                                "b": true,
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "t": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "B0D20-80A8-AD",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "Quantity",
+                            "datatype": "numeric",
+                            "dim": "[Year 2009-2010.Quantity]",
+                            "table": "Year 2009-2010",
+                            "title": "Total Quantity"
+                        },
+                        "panel": "measures"
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "6669916fc4fdae003f73f78e",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "filter",
+        "drillToAnywhere": true,
+        "selector": false,
+        "triggersDomready": true
+    },
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "country",
+                    "plural": "Country",
+                    "singular": "Country",
+                    "title": "Country"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "pageSize": 25,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}

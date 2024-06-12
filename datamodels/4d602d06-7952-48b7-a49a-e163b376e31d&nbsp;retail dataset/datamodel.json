@@ -1,0 +1,33 @@
+{
+    "buildDestination": {
+        "destination": "elasticube"
+    },
+    "datasets": [
+        "./18dab14c-6b38-49fa-a00f-05e3c6da7f17/dataset.json"
+    ],
+    "dependencies": {
+        "perspectives": [
+            "./4d602d06-7952-48b7-a49a-e163b376e31d/perspective.json"
+        ]
+    },
+    "experiments": {
+    },
+    "fiscal": "system",
+    "hierarchies": [
+    ],
+    "modelStatistics": {
+        "allTablesPerCollection": true,
+        "enableModelStatistics": true,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "4d602d06-7952-48b7-a49a-e163b376e31d",
+    "relationType": "direct",
+    "relations": "./relations.json",
+    "relationsTables": [
+    ],
+    "schemaId": null,
+    "shouldUpdateScheduleOnManualBuild": null,
+    "title": "retail dataset",
+    "type": "extract"
+}
